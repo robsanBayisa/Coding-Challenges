@@ -22,6 +22,6 @@ function maps(x) {
   }
 }
 // map through the array and multiply each element by 2. also return
-console.log(doubled([1, 2, 3]));
+console.log(maps([1, 2, 3]));
 // [ 2, 4, 6 ]
-console.log(doubled([]));
+console.log(maps([]));

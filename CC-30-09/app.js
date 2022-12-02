@@ -19,8 +19,7 @@ function maps(x) {
     return []; // Return an empty array if the input is empty
   } else {
     return x.map((num) => num * 2); // Use x instead of arr and double each element
-  }
-}
+
 // map through the array and multiply each element by 2. also return
 console.log(maps([1, 2, 3]));
 // [ 2, 4, 6 ]

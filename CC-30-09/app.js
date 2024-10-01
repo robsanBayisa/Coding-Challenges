@@ -12,11 +12,13 @@
 // If we given [2,22],should return [4,44]
 // p:
 // Make a function that takes in an array
-function doubled(arr) {
-  if (arr.length === 0) {
+function maps(x) {
+  if (x.length === 0) {
+    // Check if the input array x is empty
     console.log('Array is invalid');
+    return []; // Return an empty array if the input is empty
   } else {
-    return arr.map((i) => i * 2);
+    return x.map((num) => num * 2); // Use x instead of arr and double each element
   }
 }
 // map through the array and multiply each element by 2. also return
